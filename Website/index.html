@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="flex align-item-centre">
+      
+      <!-- sidebar -->
+      <div class="side-bar">
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button1">
+            <i class="fa fa-camera" style="font-size: 48px; color: white"></i>
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button2">
+            <i class="fa fa-globe" style="font-size: 48px; color: white"></i>
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button3">
+            <i class="fa fa-user" style="font-size: 48px; color: white"></i>
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button9">
+           <i class="fa fa-list" style="font-size: 42px; color: white"></i>
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button5">
+            <i class="fa fa-sign-in" style="font-size: 48px; color: white"></i>
+          </button>
+        </div>
+        <div class="button-div">
+          <button class="button-sidebar" id="side-bar-button8">
+            <i class="fa fa-sign-out" style="font-size: 48px; color: white"></i>
+          </button>
+        </div>
+      </div>
+      <!-- login -->
+      <div class="login" id="login">
+        <div class="flex">
+          <div class="section1 flex">
+            <img src="./assests/Image (7).jpeg" alt="" />
+            <div>
+              <h2>Welcome To Travel Dairy</h2>
+              <p>capture and share your moments</p>
+            </div>
+          </div>
+          <div class="section2 flex">
+            <div class="section2-inner">
+              <form>
+                <h1>Login</h1>
+                <p>Enter Your Location</p>
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  id="login-email"
+                /><br />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  id="login-password"
+                /><br />
+                <button id="loginBtn">Login</button>
+                <div class="button-div"></div>
+              </form>
+              <button class="" id="side-bar-button6">Register?</button>
+              <p>Forget password?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- register page -->
+      <div id="register">
+        <div class="flex">
+          <div class="section1 flex">
+            <img src="./assests/Image (6).jpeg" alt="" />
+            <div>
+              <h2>Welcome To Travel Dairy</h2>
+              <p>capture and share your momnets</p>
+            </div>
+          </div>
+          <div class="section2 flex">
+            <div class="section2-inner">
+              <form>
+                <h1>Register</h1>
+                <p>Enter Your Location</p>
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  id="reg-email"
+                /><br />
+                <input
+                  type="name"
+                  placeholder="Enter Name"
+                  id="reg-name"
+                /><br />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  id="reg-password"
+                /><br />
+                <button id="registerBtn">Register</button>
+
+                <!-- <a href="./login.html">Login?</a> -->
+              </form>
+              <button class="" id="side-bar-button7">Login?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Page -->
+      <div class="profile" id="profile">
+        <div class="flex">
+          <div class="width-50" id="profile-data">
+            <div class="flex align-item-centre img-div-profile">
+              <div>
+                <img src="./assests/Image.jpeg" alt="" class="profile-img" />
+              </div>
+              <div>
+                <h2 class="h2-profile">Your Name</h2>
+                <p class="p-profile">Bio: Traveler To NeW York</p>
+                <div class="flex profile-details">
+                  <div>
+                    <p>0</p>
+                    <p>Posts</p>
+                  </div>
+                  <div>
+                    <p>0</p>
+                    <p>Followers</p>
+                  </div>
+                  <div>
+                    <p>32</p>
+                    <p>Following</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="total-stats-profile">
+              <h2 class="total-stats-h2">Total Statistics</h2>
+              <div class="flex align-centre">
+                <div class="status-data-div">
+                  <h2>Right</h2>
+                  <p>Total Likes</p>
+                  <p>3</p>
+                </div>
+                <div class="status-data-div">
+                  <h2>Right</h2>
+                  <p>Total Followers</p>
+                  <p>3</p>
+                </div>
+                <div class="status-data-div">
+                  <h2>Right</h2>
+                  <p>Total Posts</p>
+                  <p>3</p>
+                </div>
+              </div>
+            </div>
+            <div class="total-achive-profile">
+              <h2 class="total-achive-h2">Achievements</h2>
+              <div class="align-centre">
+                <div class="achive-data-div flex">
+                  <div class="h2">
+                    <h2>T</h2>
+                  </div>
+                  <div class="achive-starts">
+                    <div class="flex align-item-centre space-between">
+                      <p class="above-bar">Commmitted Traveler</p>
+                      <p>1200/1200</p>
+                    </div>
+                    <div class="bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <p class="below-bar">Earn 1200 Points</p>
+                  </div>
+                </div>
+                <div class="achive-data-div flex">
+                  <div class="h2">
+                    <h2>T</h2>
+                  </div>
+                  <div class="achive-starts">
+                    <div class="flex align-item-centre space-between">
+                      <p class="above-bar">Points Collector</p>
+                      <p>1200/1200</p>
+                    </div>
+                    <div class="bar">
+                      <div class="inner-bar"></div>
+                    </div>
+                    <p class="below-bar">Earn 1200 Points</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="friends-suggest">
+            <h2>Friends Suggestions</h2>
+            <div class="Suggest" id="usersContainer">
+                
+            </div>
+            <div>
+              <form id="postForm">
+                <textarea
+                  name="content"
+                  placeholder="What's on your mind?"
+                ></textarea>
+                <input type="file" name="photo" accept="image/*" />
+                <button class="white-button type="submit">Post</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Display posts Page -->
+      <div class="feedContainer" id="posts"></div>
+
+      
+      <!-- Photos Page -->
+      <div class="photos" id="photos">
+        <div class="height-of-popup">
+          <div class="full-width">
+            <img src="./assests/group (5).jpeg" alt="" class="wide-img" />
+          </div>
+          <div class="flex flex-wrap">
+            <img src="./assests/group (1).jpeg" alt="" class="oneByFour-img" />
+            <img src="./assests/group (2).jpeg" alt="" class="oneByFour-img" />
+            <img src="./assests/group (3).jpeg" alt="" class="oneByFour-img" />
+            <img src="./assests/group (4).jpeg" alt="" class="oneByFour-img" />
+            <img src="../assests/group (6).jpeg" alt="" class="oneByFour-img" />
+            <img src="../assests/group.jpeg" alt="" class="oneByFour-img" />
+            <img src="../assests/group (7).jpeg" alt="" class="oneByFour-img" />
+            <img src="../assests/group (1).jpeg" alt="" class="oneByFour-img" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Discovery Page -->
+      <div class="discovery-page" id="discovery">
+        <div class="flex space-between align-item-centre">
+          <div class="flex align-item-centre">
+            <img src="./assests/Image.jpeg" alt="" class="small-img" />
+            <div>
+              <h2>Discovery Page</h2>
+              <p>Latest Posts</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./assests/download (1).jpeg"
+              alt=""
+              class="extra-small-img"
+            />
+            <img
+              src="./assests/download (1).jpeg"
+              alt=""
+              class="extra-small-img margin-left--10"
+            />
+            <img
+              src="./assests/download (1).jpeg"
+              alt=""
+              class="extra-small-img margin-left--10"
+            />
+          </div>
+        </div>
+        <div class="flex align-item-centre space-between padding-30px-y">
+          <h1 class="padding-10px">My Posts</h1>
+          <div>
+            <button class="white-button" id="showPhotos">My Photos</button>
+            <button class="gray-button">My Upload</button>
+          </div>
+        </div>
+        <div class="flex gap-30">
+          <div class="border-thin-white border-8 width-20">
+            <div class="flex align-item-centre padding-10px">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <img
+              src="./assests/Image (5).jpeg"
+              alt=""
+              class="big margin-bottom-10px"
+            />
+            <div class="padding-10px">
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white border-8 width-20">
+            <div class="flex align-item-centre padding-10px">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <img
+              src="./assests/Image (6).jpeg"
+              alt=""
+              class="big margin-bottom-10px"
+            />
+            <div class="padding-10px">
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white border-8 width-20">
+            <div class="flex align-item-centre padding-10px">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <img
+              src="./assests/Image (5).jpeg"
+              alt=""
+              class="big margin-bottom-10px"
+            />
+            <div class="padding-10px">
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white border-8 width-20">
+            <div class="flex align-item-centre padding-10px">
+              <img
+                src="./assests/Image (7).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <img
+              src="./assests/Image (7).jpeg"
+              alt=""
+              class="big margin-bottom-10px"
+            />
+            <div class="padding-10px">
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+        </div>
+        <h1 class="padding-10px">My</h1>
+        <div class="flex gap-30">
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/localhost_3002_3.png"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+          <div class="border-thin-white padding-10px border-8">
+            <div class="flex align-item-centre">
+              <img
+                src="./assests/download (1).jpeg"
+                alt=""
+                class="extra-small-img margin-bottom-10px"
+              />
+              <p class="f3">Lauran</p>
+            </div>
+            <div>
+              <p class="f2">Meeting on 11.3.2022</p>
+              <p class="f3">Joined on 11 March 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
